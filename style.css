@@ -6,20 +6,31 @@ html, body {
   justify-content: center;
   align-items: center;
   font-family: alienation;
-  color:aqua;
+  color:#0073ff;
+  
   h1 {
+      color: transparent;
+      background-clip: text;
+      background-image: linear-gradient(to right, #21f8ff, #0073ff, #21f8ff);
     font-size: 80px;
-     text-align: center;
+     text-align: center; 
      
   }
+}
+
   .gifs {
     display: flex; 
   } 
- 
+
+  .gifs img {
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+  }
 
   .navbar ul{
     list-style-type: none; 
-    background-color: aqua; 
+    background-image: linear-gradient(to right,  #21f8ff, #0073ff, #21f8ff);
     text-align: center;
     margin: 0px; 
     font-size: 30px;
@@ -43,5 +54,4 @@ html, body {
 
 canvas {
   display: block;
-}
 }
