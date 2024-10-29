@@ -1,8 +1,7 @@
 
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  
+  canvas = createCanvas(windowWidth, windowHeight);
   vid = createCapture(VIDEO);
   vid.hide;
 }

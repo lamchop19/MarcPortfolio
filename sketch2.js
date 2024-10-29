@@ -1,7 +1,6 @@
 let tiles = []; 
 function setup() {
   createCanvas(windowWidth, 400);
-  noLoop();
   let tileSize = 40; 
   for (let i = 0; i < width; i += tileSize) {
     for (let j = 0; j < height; j += tileSize) {
