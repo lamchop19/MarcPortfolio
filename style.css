@@ -1,11 +1,12 @@
+@font-face{
+  font-family: 'Alienation';
+  src: url(ALIENATI.TTF);
+}
+
 html, body {
-  @font-face{
-    font-family: Alienation; 
-    src: url(fonts/alienation.ttf);
-  }
+  font-family: Alienation; 
   justify-content: center;
   align-items: center;
-  font-family: alienation;
   color:#0073ff;
   
   h1 {
@@ -13,9 +14,9 @@ html, body {
       background-clip: text;
       background-image: linear-gradient(to right, #21f8ff, #0073ff, #21f8ff);
     font-size: 80px;
-     text-align: center; 
-     
+     text-align: center;   
   }
+  
 }
 
   .gifs {

@@ -1,4 +1,5 @@
 let tiles = []; 
+
 function setup() {
   createCanvas(windowWidth, 400);
   let tileSize = 40; 
